@@ -60,17 +60,14 @@ main{
   order: 2;
   padding: 10px;
 }
-img {
-  width: 200px;
-  aspect-ratio: 1/1;
+div.img{
+  width: 250px;
+  border: 5px solid var(--destaque);
   border-radius: 50%;
-  object-fit: cover;
   overflow: hidden;
-  border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
-  display: block;
   margin: auto;
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 h1{
   color: var(--destaque);
