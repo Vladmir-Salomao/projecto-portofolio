@@ -12,7 +12,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root{
   --fundo-principal: #f5f5f5;
   --texto: #222222;
@@ -49,4 +48,46 @@ header{
 #menu>ul>li>a:hover{
   background-color: var(--destaque-inverso);
   color: var(--destaque);
+}
+main{
+  margin-top: 20px;
+  background-color: var(--fundo-principal);
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+}
+#ficha{
+  background-color: var(--fundo-card);
+  order: 2;
+  padding: 10px;
+}
+img {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque);
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+h1{
+  color: var(--destaque);
+  margin-bottom: 10px;
+  text-align: center;
+}
+#c-sociais{
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  color: var(--destaque);
+  gap: 2rem;
+}
+#c-sociais a{
+  color: var(--destaque);
+  font-size: 1.7em;
+}
+#c-sociais a:hover{
+color: var(--destaque-inverso);
 }
