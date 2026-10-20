@@ -200,5 +200,15 @@ span.nome{
   color: white;
   text-decoration: none;
   text-align: center;
-  p
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 25px;
+  width: 250px;
+  font-weight:  bolder;
+}
+.anuncio-rapido{
+  text-align: center;
+}
+.alerta{
+  color: red;
 }

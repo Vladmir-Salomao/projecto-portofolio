@@ -7,26 +7,34 @@
     <style>
         *{
             margin: 0;
+            
             padding: 0;
             box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ::-webkit-scrollbar{
+            display: none;
         }
         body{
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 100vw;
             height: 100vh;
-            background-image: url(../imagens/prisão-500.JPG);
+            background-image: url(../ispb/3C7DA7EA-0757-406F-8387-F511CE625D21.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
         }
         main{
             
-            width: 60vw;
-            height: 80vh;
-            background-color: rgba(255, 255, 255, 0.689);
-            border-radius: 0 50px ;
+            width: 80vw;
+            height: 70vh;
+            background-color: white;
+            border-radius: 15px ;
+            overflow-y: scroll;
+            max-width: 400px;
         }
         ol{
             padding: 5px;
@@ -36,15 +44,48 @@
         li{
             padding: 5px;
             font-weight: bolder;
-            vac
+            margin: 5px;
+            background-color: rgb(128, 128, 128);
+            color: white;
+            padding: 5px;
+        }
+        h2,h1,h3,.d-t{
+            text-align: center;
+            color: black;
+        }
+        .recomendacao{
+            padding: 5px;
+            background-color: white;
+        }
+        .botoes{
+            background-color: #73dd6d;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            border-radius: 25px;
+            transition: 0.5s ease;
+        }
+        .botoes:hover{
+            background-color: #30862e;
+        }
+        .botoes a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            border-radius: ;
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>saudações pessoal</h1>
+        <h1>saudações colegas</h1>
         <p></p>
             <h2>📥 Regras 📥</h2>
+            <h3>que precisamos para manter o ambiente entre colegas saudavel dentro do grupo</h3>
+            <p class="d-t">politica anti-toxidade</p>
+
+            
             <ol>
                 <li>🚫 Proibido qualquer tipo de ofensa, discriminação, apoio político, termos pejorativos/adultos/conteúdos +18</li>
                 <li>🚫 Qualquer tipo de divulgação  </li>
@@ -59,9 +100,15 @@
                 <li>🚫 Proibido discurso de ódio</li>
             </ol>
 
-            🔍 OBS: Quando um membro descumprir qualquer regra, envie uma mensagem para um adm, e não dê atenção para essas pessoas, pois caso contrário *você também será punido*.
-
-            🛡️ Não nos responsabilizamos por venda quaisquer outras negociações por membros desse grupo
+            <div class="recomendacao">
+                <p class="extra">🔍 OBS: Quando um membro descumprir qualquer regra, envie uma mensagem para um adm, e não dê atenção para essas pessoas, pois caso contrário *você também será punido*.</p>
+                <p class="extra">🛡️ Não nos responsabilizamos por venda quaisquer outras negociações por membros desse grupo</p>
+            </div>
+           
     </main>
+     <div class="botoes">
+                <a href="https://chat.whatsapp.com/Fy5K35c3It6FdWzFujsJzz?mode=gi_t">entrar</a>
+                <a href=""></a>
+            </div>
 </body>
 </html>
